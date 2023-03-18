@@ -8,7 +8,6 @@ def update_clock():
 
 	clock_label.config(text=date_time_text)
 	clock_label.after(1000, update_clock)
-	
 
 def main():
 	global window, clock_label
